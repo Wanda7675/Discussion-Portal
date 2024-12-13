@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Discussion Portal</title>
+    <link rel="stylesheet" href="discussion.css">
+</head>
+<body>
+    <div class="box" id="box1">
+        <p>Discussion portal</p>
+    </div>
+    <div class="box" id="box2">
+        <div class="mainbox" id="leftpane">
+                  <div class="questionbutton">
+                      <button onclick="newquestionform()">New Question Form</button> 
+                      <input placeholder="Search your question">
+                  </div>
+                  <div class="questionlist" id="questionlist">
+                         <ul id="unordered">
+                            <!-- <li>Question 1</li>
+                            <li>Question 2</li> -->
+                         </ul>
+                  </div>
+        </div>
+        <div class="mainbox" id="rightpane">
+           <div class="rightpanebox">
+            <p id="mainline">Welcome to discussion Portal!</p>
+            <p id="subject">Enter a subject and a question to get started.......</p>
+            <input id="subjectinput" placeholder="Subject">
+            <p>Question</p>
+            <br>
+           <input id="enterquestion" placeholder="">
+            <hr>
+            <br>
+            <button id="submit" onclick="addQuestion()">Submit</button>
+           </div>
+        </div>
+    </div>
+    
+
+
+    <script src="discussion.js"></script>
+</body>
+</html>

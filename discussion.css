@@ -1,0 +1,77 @@
+#box1{
+    height:50px;
+    width:100vw;
+    font-size: 25px;
+    font-weight: bold;
+    color:black;
+   background-color: rgb(71, 190, 153);
+   border:1px solid black;
+}
+#box2{
+    border:2px solid black;
+    height:500px;
+    width:100vw;
+    display: flex;
+    flex-direction: row;
+}
+.mainbox{
+    height:480px;
+    width:50vw;
+    border: 1px solid black;
+  
+}
+button{
+    border:1px solid black;
+    height: 25px;
+    width:200px;
+    border-radius: 5px;
+    margin-top: 10px;
+    margin-left: 5px;
+    font-size: larger;
+    background-color:  rgb(71, 190, 153);
+}
+.questionlist{
+    border: 1px solid black;
+    height:400px;
+    margin-top: 10px;
+    margin-right: 5px;
+    margin-left: 5px;
+    font-size: larger;
+    
+}
+#unordered{
+    margin-left: 100px;
+    align-content: center;
+    
+}
+button:hover{
+    cursor: pointer;
+}
+#mainline{
+    font-size: 40px;
+    font-weight: bold;
+   
+}
+.rightpanebox{
+    margin-top: 50px;
+    margin-left: 20px;
+}
+#subject{
+    font-size: larger;
+    margin-left: 20px;
+}
+#subject{
+    width:40vw;
+   
+}
+#submit{
+    width:100px;
+}
+#enterquestion {
+    border: none;  
+    outline: none; 
+    width: 40vw;
+  }
+  li {
+    list-style-type: none;
+}
